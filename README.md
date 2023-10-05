@@ -1,9 +1,9 @@
 # Login Form Page
-Welcome to the Hacktoberfest Login Form repository! This repository is created with the aim of encouraging open source enthusiasts like you to contribute to the wonderful world of open source during Hacktoberfest. Feel free to make as many Pull Requests as you can and join the celebration of open source collaboration!
+Welcome to the Hacktoberfest Login Form repository! This repository is created with the aim of encouraging open source enthusiasts like you to contribute to the wonderful world of open source during Hacktoberfest. Feel free to make as many Pull Requests as you can and join the celebration of open-source collaboration!
 
 ## Repository Overview 
 
-This repository contains a basic HTML and CSS file that serves as a simple login form. It's designed to be beginner-friendly, making it a perfect place to start if you're new to open source development or looking for a quick and fun Hacktoberfest project.
+This repository contains a basic HTML and CSS file that serves as a simple login form. It's designed to be beginner-friendly, making it a perfect place to start if you're new to open-source development or looking for a quick and fun Hacktoberfest project.
 ## How to Contribute
 Contributing to this repository is easy and open to everyone. Here's how you can get started:
 
