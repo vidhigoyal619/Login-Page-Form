@@ -3,7 +3,24 @@
     background-image: url("images/hand-painted-watercolor-pastel-sky-background_23-2148910071.avif");
     box-sizing: content-box;
 }
+.input-group{
+    position: relative;
 
+}
+.input-group_input{
+    font: inherit;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius:4px ;
+    outline: 2px solid #fff;
+    background-color: transparent;
+    transition: outline-color 500ms;
+}
+
+.input-group_input:is(:focus, :valid){
+    outline-color:#3897f0 !important;
+}
 body{
     
 }
