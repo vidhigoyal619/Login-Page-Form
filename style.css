@@ -30,7 +30,13 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 96vh;
+    justify-content:center;
+    height: 50vh;
+    width: 300px; 
+    margin: 224px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.823); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.015); 
 
 }
