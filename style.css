@@ -22,14 +22,12 @@
     outline-color:#3897f0 !important;
 }
 body{
-
+    background-image: url("images/bg.png");
+    background-size: cover;
     margin: .8rem;
 }
 
 .container{
-    border: 2px black dotted;
-    background-image: url("images/bg.png");
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
