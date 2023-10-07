@@ -1,7 +1,7 @@
-.container{
-    border: 2px black dotted;
-    background-image: url("images/hand-painted-watercolor-pastel-sky-background_23-2148910071.avif");
-    box-sizing: content-box;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 .input-group{
     position: relative;
@@ -22,5 +22,17 @@
     outline-color:#3897f0 !important;
 }
 body{
-    
+
+    margin: .8rem;
+}
+
+.container{
+    border: 2px black dotted;
+    background-image: url("images/bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+
 }
