@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-SignUp Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e8ed8c271f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- First Section: Login/Signup Form with Transparent Background Image -->
+  <section class="login-section" id="login-section">
+   <div class="form-box">
+    <h1 id="title">Sign Up</h1>
+    <form action="">
+        <div class="input-group">
+            <div class="input-field" id="name-field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-field" id="email-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="youremail@gmail.com" required>
+            </div>
+            <div class="input-field" id="phone-field">
+                <i class="fa-solid fa-phone"></i>
+                <input type="number" placeholder="Phone Number" required>
+            </div>
+            <div class="input-field" id="password-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="input-field" id="confirm-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+            <p>Remember your password?<a href="forgot.html">Forgot Password</a></p>
+        </div>
+        <div class="btn-field">
+            <button type="button" id="signupbtn"><a href="#">Sign Up</a></button>
+            <button type="button" class="disable" id="loginbtn"><a href="#">Login</a></button>
+        </div>
+    </form>
+   </div>
+  </section>
+<!-- js file  -->
+  <script src="script.js">
+</script>
+</body>
+</html>
